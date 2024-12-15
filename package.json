@@ -1,0 +1,24 @@
+{
+  "name": "alpena",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Signal Enhanced Web Apps",
+  "main": "Alpena.js",
+  "scripts": {
+    "save": "git add .; git commit -m 'Updated Release'; git push; npm version patch; npm publish; git push;"
+  },
+  "keywords": [
+    "flow-based-programming",
+    "dataflow-programming"
+  ],
+  "author": "@catpea",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/catpea/alpena.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catpea/alpena/issues"
+  },
+  "homepage": "https://github.com/catpea/alpena#readme"
+}
